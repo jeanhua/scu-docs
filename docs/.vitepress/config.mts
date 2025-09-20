@@ -6,6 +6,9 @@ export default defineConfig({
   description: "notes in scu",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: '主页', link: '/' },
       {
@@ -28,12 +31,14 @@ export default defineConfig({
           { text: "待补充", link: "#" },
         ]
       },
+      { text: '学习资料', link: '/book' },
       { text: '贡献名单', link: '/background/team' },
     ],
 
     sidebar: [
       { text: '这是什么？', link: '/intro' },
       { text: '如何贡献？', link: '/contribute' },
+      { text: '学习资料', link: '/book' },
       {
         text: '必修',
         items: [
@@ -68,6 +73,11 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2025 scu-docs'
     },
+  },
+  markdown: {
+    image: {
+      lazyLoading: true
+    }
   },
   ignoreDeadLinks: true,
 })
