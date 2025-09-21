@@ -2,13 +2,11 @@
 typora-root-url: ./..
 ---
 
-<meta name="referrer" content="never">
-
 # 高等数学概念、公式及常用结论
 
 **内容整理来源于网络，可能存在疏漏和错误，若有侵权请 [联系作者 jeanhua_official@outlook.com](jeanhua_official@outlook.com) 删除**
 
-[toc]
+
 
 # 第一章 函数 极限 连续
 
