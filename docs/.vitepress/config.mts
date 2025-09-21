@@ -4,10 +4,17 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "scu-docs",
   description: "notes in scu",
+  head:[
+    ['link', { rel: 'icon', href: '/logo.png' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
       provider: 'local'
+    },
+    logo:{
+      light:"/logo.png",
+      dark:""
     },
     nav: [
       { text: '主页', link: '/' },

@@ -5,6 +5,9 @@ hero:
   name: "scu-docs"
   text: "notes in scu"
   tagline: 四川大学计算机科学与技术学习笔记
+  image:
+    src: /logo.png
+    alt: scu-docs
   actions:
     - theme: brand
       text: 开始学习
