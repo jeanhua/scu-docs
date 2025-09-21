@@ -17,7 +17,7 @@ hero:
       link: /contribute
     - theme: alt
       text: 学习资料
-      link: /book
+      link: /学习资料/
 
 features:
   - title: 必修

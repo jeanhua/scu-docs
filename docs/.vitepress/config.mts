@@ -28,7 +28,7 @@ let vitePressConfigs: UserConfig<any> = {
       {
         text: '课外', link: "/课外/"
       },
-      { text: '学习资料', link: '/book' },
+      { text: '学习资料', link: '/学习资料/' },
       { text: '贡献名单', link: '/background/team' },
     ],
 
@@ -72,6 +72,12 @@ let config = withSidebar(vitePressConfigs, [
     documentRootPath: 'docs',
     scanStartPath: '课外',
     resolvePath: '/课外/',
+    useTitleFromFrontmatter: false
+  },
+  {
+    documentRootPath: 'docs',
+    scanStartPath: '学习资料',
+    resolvePath: '/学习资料/',
     useTitleFromFrontmatter: false
   }
 ])
