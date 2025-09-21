@@ -30,3 +30,7 @@ features:
     details: 包含相关学习资料下载链接
 ---
 
+<script>
+    let logo = "./logo.png"
+</script>
+
