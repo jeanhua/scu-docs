@@ -1,6 +1,9 @@
 ---
-typora-root-url: ./..
+typora-root-url: ./../../public
+title: 操作系统笔记(jeanhua)
 ---
+
+# 操作系统笔记
 
 本笔记根据王道操作系统编写，图表部分使用开源项目[**Excalidraw**](https://github.com/excalidraw/excalidraw)，图片压缩使用[**RECOMPRESSOR**](https://zh.recompressor.com/)
 

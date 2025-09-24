@@ -1,3 +1,9 @@
+---
+title: 贡献指南
+---
+
+
+
 # 如何贡献？
 
 ### 快速开始
@@ -17,13 +23,15 @@
 基本贡献流程：
 
 1. 安装git，配置git和github
-2. fork仓库后使用git将仓库克隆到本地 `git clone https://github.com/jeanhua/scu-docs.git`
+2. fork仓库后使用git将仓库克隆到本地
 3. 安装node js
-4. 在仓库目录使用npm(或pnpm)安装依赖包 `npm install`
-5. 运行开发环境 `npm run docs:dev`
+4. 在仓库目录使用npm(或pnpm)安装依赖包
+5. 运行开发环境
 6. 编辑笔记完成后
-7. 使用git提交 `git add .` `git commit -m 'some message'` `git push`
+7. 使用git提交
 8. 提交pull request
+
+PR merge之后会自动触发工作流进行构建并更新页面
 
 ::: warning
 

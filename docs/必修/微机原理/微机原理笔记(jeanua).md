@@ -1,5 +1,6 @@
 ---
-typora-root-url: ./..
+typora-root-url: ./../../public
+title: 微机原理笔记(jeanhua)
 ---
 
 # 微机原理笔记

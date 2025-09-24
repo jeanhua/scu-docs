@@ -2,6 +2,8 @@ import DefaultTheme from 'vitepress/theme';
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
 import { toRefs } from "vue";
+import Teek from "vitepress-theme-teek";
+import "vitepress-theme-teek/index.css";
 
 export default {
   ...DefaultTheme,
@@ -26,5 +28,6 @@ export default {
       frontmatter,
       route
     }, true);
-  }
+  },
+  extends: Teek
 };

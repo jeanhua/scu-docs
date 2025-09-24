@@ -1,6 +1,9 @@
 ---
-typora-root-url: ./..
+typora-root-url: ./../../public
+title: 高等数学笔记(jeanhua)
 ---
+
+
 
 # 高等数学概念、公式及常用结论
 

@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitepress'
-import { withSidebar } from 'vitepress-sidebar';
-import { UserConfig } from 'vitepress';
+import { defineTeekConfig } from "vitepress-theme-teek/config";
 
-let vitePressConfigs: UserConfig<any> = {
+const teekConfig = defineTeekConfig({});
+
+export default defineConfig({
+  extends: teekConfig,
   title: "scu-docs",
   description: "notes in scu",
   head: [
@@ -53,33 +55,4 @@ let vitePressConfigs: UserConfig<any> = {
     }
   },
   ignoreDeadLinks: true,
-}
-
-let config = withSidebar(vitePressConfigs, [
-  {
-    documentRootPath: 'docs',
-    scanStartPath: '必修',
-    resolvePath: '/必修/',
-    useTitleFromFileHeading: false
-  },
-  {
-    documentRootPath: 'docs',
-    scanStartPath: '选修',
-    resolvePath: '/选修/',
-    useTitleFromFrontmatter: false
-  },
-  {
-    documentRootPath: 'docs',
-    scanStartPath: '课外',
-    resolvePath: '/课外/',
-    useTitleFromFrontmatter: false
-  },
-  {
-    documentRootPath: 'docs',
-    scanStartPath: '学习资料',
-    resolvePath: '/学习资料/',
-    useTitleFromFrontmatter: false
-  }
-])
-
-export default defineConfig(config)
+})

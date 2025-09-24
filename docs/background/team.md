@@ -1,3 +1,11 @@
+---
+title: 贡献名单
+---
+
+
+
+# Author Team
+
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 const members = [
@@ -11,7 +19,5 @@ const members = [
   },
 ]
 </script>
-
-# Author Team
 
 <VPTeamMembers size="small" :members />
