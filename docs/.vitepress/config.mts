@@ -63,8 +63,8 @@ export default defineConfig({
         body: [
           {
             type: "text",
-            content: '## 重要通知',
-            style: "color: red; font-weight:bold;"
+            content: '重要通知',
+            style: "color: red; font-weight:bold; font-size: 1.5rem"
           },
           {
             type: "text",
