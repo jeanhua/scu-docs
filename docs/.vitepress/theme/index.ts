@@ -5,6 +5,8 @@ import { toRefs } from "vue";
 import Teek from "vitepress-theme-teek";
 import "vitepress-theme-teek/index.css";
 
+import "./style/style.css"
+
 export default {
   ...DefaultTheme,
   enhanceApp(ctx: any) {
