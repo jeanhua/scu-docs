@@ -75,15 +75,6 @@ export default defineConfig({
             type:"text",
             content:"本站后续资料也将转向其他网盘存储"
           },
-          {
-            type:"title",
-            content:'QQ交流群',
-          },
-          {
-            type:"image",
-            src:'/qrcode_1766313258328.jpg',
-            style: 'height: 200px; padding: 10px'
-          }
         ],
         footer: [
           {

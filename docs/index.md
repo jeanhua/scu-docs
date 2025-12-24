@@ -30,7 +30,11 @@ features:
     details: 包含相关学习资料下载链接
 ---
 
-<script>
-    let logo = "./logo.png"
-</script>
+## 如果网站加速速度慢，可点击 [这里](https://github.com/jeanhua/scu-docs) 进入仓库，克隆仓库后在本地运行
 
+```bash
+git clone https://github.com/jeanhua/scu-docs.git
+cd scu-docs
+npm install
+npm run docs:dev
+```
