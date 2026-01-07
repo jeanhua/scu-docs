@@ -39,6 +39,8 @@ PR merge之后会自动触发工作流进行构建并更新页面
 
 - 如果是文件，请上传到网盘，然后在笔记中添加你的分享链接
 
-- 建议使用123网盘，蓝奏网盘等不限速网盘
+- 建议使用[WPS网盘](https://account.wps.cn/?from=yanfapeixunyuan&cb=https://campus.wps.cn/usercenter/home), 学校有专属会员
+
+> 点击专属账号登录，输入学校代码scu，会自动跳转学校统一认证登录，登录成功后绑定身份即可
 
 :::
